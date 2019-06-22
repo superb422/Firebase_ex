@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="70dp"
+        android:text="회원가입"
+        android:textColor="#474747"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="이메일 ID"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="이메일 주소"
+        android:inputType="textPersonName"
+        android:textColorHint="#dcdcdc"
+        android:textSize="14sp"
+        android:theme="@style/EditTextStyle" />
+
+    <TextView
+        android:id="@+id/signup_email_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D0021B"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:text="비밀번호"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/signup_email_pw"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="영문, 숫자 조합으로 8자 이상 입력해주세요."
+        android:inputType="textPersonName|textPassword"
+        android:textColorHint="#dcdcdc"
+        android:textSize="14sp"
+        android:theme="@style/EditTextStyle" />
+
+    <TextView
+        android:id="@+id/signup_pw_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D0021B"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:text="비밀번호 확인"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/signup_email_pw2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="비밀번호를 다시 입력해주세요."
+        android:inputType="textPersonName|textPassword"
+        android:textColorHint="#dcdcdc"
+        android:textSize="14sp"
+        android:theme="@style/EditTextStyle" />
+
+    <TextView
+        android:id="@+id/signup_pw_check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D0021B"
+        android:layout_marginLeft="40dp" />
+
+
+    <ImageView
+        android:id="@+id/signup_btn"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_btn_email_login"
+        android:text="회원가입"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="회원 가입 완료 시 코인 무료 100 지급"
+        android:textColor="#2205fa" />
+
+</LinearLayout>

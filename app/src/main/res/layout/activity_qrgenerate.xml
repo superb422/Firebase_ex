@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRgenerate">
+
+    <EditText
+        android:id="@+id/edt_qrcode_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:ems="10"
+        android:hint="생성할 QR코드 입력"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_start_qrcode_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:text="QR코드 생성기" />
+
+    <ImageView
+        android:id="@+id/iv_generated_qrcode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/background" />
+
+    <Button
+        android:id="@+id/transac_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_start_qrcode_generate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-75dp"
+        android:text="거래소" />
+
+</RelativeLayout>

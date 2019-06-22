@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#92b6d5</color>
+    <color name="colorPrimaryDark">#92b6d5</color>
+    <color name="colorAccent">#92b6d5</color>
+    <color name="colorHint">#9b9b9b</color>
+    <color name="colorActivated">#dcdcdc</color>
+    <color name="colorUnderline">#92b6d5</color>
+    <color name="colorDraw">#517ae4</color>
+    <color name="colorText">#474747</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <color name="normal_day">#000000</color>
+    <color name="colorMonthDayLabelPaint">#424242</color>
+    <color name="selected_day_background">#4e83b0</color>
+    <color name="selected_day_interval_text">#ffffff</color>
+    <color name="selected_day_text">#ffffff</color>
+    <color name="colorWeekDayLineColor">#d8d8d8</color>
+    <color name="colorWeekEndColor">#000000</color>
+    <color name="colorTest">#1abc9c</color>
+    <color name="colorMonthTextColor">#252525</color>
+    <color name="colorYearTextColor">#bebebe</color>
+    <color name="color_old_day_text_color">#bbbbbb</color>
+</resources>

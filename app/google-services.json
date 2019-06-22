@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "608921908951",
+    "firebase_url": "https://worldcoin-5e453.firebaseio.com",
+    "project_id": "worldcoin-5e453",
+    "storage_bucket": "worldcoin-5e453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608921908951:android:ab29876eff7efd60",
+        "android_client_info": {
+          "package_name": "com.example.dongh.worldcoin_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608921908951-8ouja5o5iva79ibkfq6ntaaf34luug9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dongh.worldcoin_demo",
+            "certificate_hash": "6982e326e4720273de5cd0fae33e5ed34585619a"
+          }
+        },
+        {
+          "client_id": "608921908951-qr4gnh19496e3t2hbkd5ta1g7ainp07m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCRuulanRtleNonYrSiht1IuwhON84V9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608921908951-qr4gnh19496e3t2hbkd5ta1g7ainp07m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
